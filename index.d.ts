@@ -48,7 +48,7 @@ declare namespace middy {
     context: Context;
     response: V;
     error: Error;
-    callback: Callback<T>;
+    callback: Callback<V>;
   }
 }
 
